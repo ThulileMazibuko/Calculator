@@ -1,0 +1,55 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+form{
+  width: 25%;
+  height:65% ;
+  background-color: black;
+  margin: 10% 0 0 10%;
+  border-radius: 10px;
+}
+input{
+  margin: 40px;
+  width: 300px;
+  height: 80px;
+}
+div{
+  margin-left: 55px;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+button{
+ width: 20%; 
+ height: 15%;
+ border-radius: 50%;
+ font-size: 35px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bottom{
+  border: 10px solid black;
+  border-radius: 50%;
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media(width > 768px){
+  form{
+    background-color:none;
+  }
+  
+}
