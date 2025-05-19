@@ -10,7 +10,7 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-form{
+#form{
   width: 25%;
   height:65% ;
   background-color: black;
@@ -21,6 +21,7 @@ input{
   margin: 40px;
   width: 300px;
   height: 80px;
+  font-size: large;
 }
 div{
   margin-left: 55px;
@@ -32,13 +33,20 @@ button{
  width: 20%; 
  height: 15%;
  border-radius: 50%;
- font-size: 35px;
+ font-size: 2rem;
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button:hover{
+  background-color: hsl(0, 0%, 40%);
 }
 .bottom{
   border: 10px solid black;
   border-radius: 50%;
 }
+#typehere{
+  font-size: 30px;
+}
+
 
 
 
